@@ -1,0 +1,489 @@
+[
+  {
+    "semestre": 1,
+    "ramos": [
+      {
+        "nombre": "Fundamentos de Procesos Químicos",
+        "codigo": "EIQ110",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": ["EIQ120"],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Desarrollo Personal y Comunicación para Ingeniería",
+        "codigo": "FIN100",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": [],
+        "categoria": "Gestión"
+      },
+      {
+        "nombre": "Fundamentos de Matemáticas para Ingeniería",
+        "codigo": "MAT1001",
+        "creditos": 6,
+        "prerrequisitos": [],
+        "abre": ["MAT1002", "ICA213"],
+        "categoria": "Ciencias Básicas"
+      },
+      {
+        "nombre": "Química para Ingeniería",
+        "codigo": "QUI100",
+        "creditos": 5,
+        "prerrequisitos": [],
+        "abre": ["QUI161", "EIQ263"],
+        "categoria": "Ciencias Básicas"
+      },
+      {
+        "nombre": "Antropología Cristiana",
+        "codigo": "ICR010",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": ["ICR020"],
+        "categoria": "Formación Fundamental"
+      }
+    ]
+  },
+  {
+    "semestre": 2,
+    "ramos": [
+      {
+        "nombre": "Fundamentos de Ingeniería",
+        "codigo": "EIQ120",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ110"],
+        "abre": ["EIQ220", "EIQ242"],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Ética Cristiana",
+        "codigo": "ICR020",
+        "creditos": 2,
+        "prerrequisitos": ["ICR010"],
+        "abre": [],
+        "categoria": "Formación Fundamental"
+      },
+      {
+        "nombre": "Cálculo Diferencial e Integral",
+        "codigo": "MAT1002",
+        "creditos": 6,
+        "prerrequisitos": ["MAT1001"],
+        "abre": ["MAT1003", "FIS1002"],
+        "categoria": "Ciencias Básicas"
+      },
+      {
+        "nombre": "Química Inorgánica",
+        "codigo": "QUI161",
+        "creditos": 5,
+        "prerrequisitos": ["QUI100"],
+        "abre": ["EIQ262"],
+        "categoria": "Ciencias Básicas"
+      },
+      {
+        "nombre": "Formación Fundamental 1",
+        "codigo": "FOF1",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": [],
+        "categoria": "Formación Fundamental"
+      }
+    ]
+  },
+  {
+    "semestre": 3,
+    "ramos": [
+      {
+        "nombre": "Balance de Materia",
+        "codigo": "EIQ220",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ120"],
+        "abre": ["EIQ314"],
+        "categoria": "Asignaturas Integradoras"
+      },
+      {
+        "nombre": "Física para Ingeniería",
+        "codigo": "FIS1002",
+        "creditos": 5,
+        "prerrequisitos": ["MAT1002"],
+        "abre": ["EIQ377", "EIQ356"],
+        "categoria": "Ciencias Básicas"
+      },
+      {
+        "nombre": "Economía",
+        "codigo": "ICA213",
+        "creditos": 3,
+        "prerrequisitos": [],
+        "abre": ["EIQ312"],
+        "categoria": "Gestión"
+      },
+      {
+        "nombre": "Cálculo en Varias Variables",
+        "codigo": "MAT1003",
+        "creditos": 4,
+        "prerrequisitos": ["MAT1002"],
+        "abre": ["MAT1005", "EIQ288"],
+        "categoria": "Ciencias Básicas"
+      },
+      {
+        "nombre": "Inglés 1",
+        "codigo": "ING9001",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": ["ING9002"],
+        "categoria": "Formación Fundamental"
+      }
+    ]
+  },
+  {
+    "semestre": 4,
+    "ramos": [
+      {
+        "nombre": "Elementos de Fisicoquímica",
+        "codigo": "EIQ242",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ120"],
+        "abre": ["EIQ311"],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Métodos Estadísticos en Ingeniería",
+        "codigo": "EIQ288",
+        "creditos": 4,
+        "prerrequisitos": ["MAT1003"],
+        "abre": [],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Ecuaciones Diferenciales",
+        "codigo": "MAT1005",
+        "creditos": 4,
+        "prerrequisitos": ["MAT1003"],
+        "abre": ["EIQ366"],
+        "categoria": "Ciencias Básicas"
+      },
+      {
+        "nombre": "Química Orgánica Industrial",
+        "codigo": "EIQ263",
+        "creditos": 5,
+        "prerrequisitos": ["QUI100"],
+        "abre": ["EIQ415"],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Inglés 2",
+        "codigo": "ING9002",
+        "creditos": 2,
+        "prerrequisitos": ["ING9001"],
+        "abre": ["ING9003"],
+        "categoria": "Formación Fundamental"
+      }
+    ]
+  },
+  {
+    "semestre": 5,
+    "ramos": [
+      {
+        "nombre": "Termodinámica de Procesos",
+        "codigo": "EIQ311",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ242"],
+        "abre": ["EIQ359"],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Interpretación de Planos",
+        "codigo": "EIQ314",
+        "creditos": 3,
+        "prerrequisitos": ["EIQ220"],
+        "abre": [],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Ciencia de Materiales",
+        "codigo": "EIQ262",
+        "creditos": 4,
+        "prerrequisitos": ["QUI161"],
+        "abre": ["EIQ518"],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Administración de Producción",
+        "codigo": "EIQ312",
+        "creditos": 3,
+        "prerrequisitos": ["ICA213"],
+        "abre": ["EIQ414", "EIQ476"],
+        "categoria": "Gestión"
+      },
+      {
+        "nombre": "Formación Fundamental 2",
+        "codigo": "FOF2",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": [],
+        "categoria": "Formación Fundamental"
+      },
+      {
+        "nombre": "Inglés 3",
+        "codigo": "ING9003",
+        "creditos": 2,
+        "prerrequisitos": ["ING9002"],
+        "abre": ["ING9004"],
+        "categoria": "Formación Fundamental"
+      }
+    ]
+  },
+  {
+    "semestre": 6,
+    "ramos": [
+      {
+        "nombre": "Termodinámica del Equilibrio",
+        "codigo": "EIQ359",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ311"],
+        "abre": ["EIQ432", "EIQ474", "EIQ488"],
+        "categoria": "Especialidad"
+      },
+      {
+        "nombre": "Mecánica de Fluidos",
+        "codigo": "EIQ356",
+        "creditos": 4,
+        "prerrequisitos": ["FIS1002"],
+        "abre": ["EIQ453"],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Métodos Numéricos en Ingeniería",
+        "codigo": "EIQ366",
+        "creditos": 4,
+        "prerrequisitos": ["MAT1005"],
+        "abre": ["EIQ500"],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Sistemas Eléctricos en Procesos",
+        "codigo": "EIQ377",
+        "creditos": 4,
+        "prerrequisitos": ["FIS1002"],
+        "abre": [],
+        "categoria": "Ciencias de la Ingeniería"
+      },
+      {
+        "nombre": "Inglés 4",
+        "codigo": "ING9004",
+        "creditos": 2,
+        "prerrequisitos": ["ING9003"],
+        "abre": [],
+        "categoria": "Formación Fundamental"
+      }
+    ]
+  },
+  {
+    "semestre": 7,
+    "ramos": [
+      {
+        "nombre": "Cálculo de Procesos Químicos",
+        "codigo": "EIQ432",
+        "creditos": 5,
+        "prerrequisitos": ["EIQ359"],
+        "abre": [],
+        "categoria": "Integradoras"
+      },
+      {
+        "nombre": "Transferencia de Calor",
+        "codigo": "EIQ453",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ356"],
+        "abre": ["EIQ451"],
+        "categoria": "Especialidad"
+      },
+      {
+        "nombre": "Laboratorio de Química Aplicada",
+        "codigo": "EIQ415",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ263"],
+        "abre": [],
+        "categoria": "Integradoras"
+      },
+      {
+        "nombre": "Prevención de Riesgos Industriales",
+        "codigo": "EIQ414",
+        "creditos": 3,
+        "prerrequisitos": ["EIQ312"],
+        "abre": ["EIQ522"],
+        "categoria": "Especialidad"
+      },
+      {
+        "nombre": "Optativo 1",
+        "codigo": "OPT1",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": [],
+        "categoria": "Optativas"
+      },
+      {
+        "nombre": "Formación Fundamental 3",
+        "codigo": "FOF3",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": [],
+        "categoria": "Formación Fundamental"
+      }
+    ]
+  },
+  {
+    "semestre": 8,
+    "ramos": [
+      {
+        "nombre": "Reactores Químicos I",
+        "codigo": "EIQ474",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ359"],
+        "abre": ["EIQ536"],
+        "categoria": "Especialidad"
+      },
+      {
+        "nombre": "Electroquímica",
+        "codigo": "EIQ488",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ359"],
+        "abre": [],
+        "categoria": "Especialidad"
+      },
+      {
+        "nombre": "Transferencia de Masa",
+        "codigo": "EIQ451",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ453"],
+        "abre": ["EIQ512", "EIQ597"],
+        "categoria": "Especialidad"
+      },
+      {
+        "nombre": "Ingeniería Económica",
+        "codigo": "EIQ476",
+        "creditos": 3,
+        "prerrequisitos": ["EIQ312"],
+        "abre": ["EIQ577"],
+        "categoria": "Gestión"
+      },
+      {
+        "nombre": "Optativo 2",
+        "codigo": "OPT2",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": [],
+        "categoria": "Optativas"
+      },
+      {
+        "nombre": "Ética Cristiana",
+        "codigo": "ICR020",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": [],
+        "categoria": "Formación Fundamental"
+      }
+    ]
+  },
+  {
+    "semestre": 9,
+    "ramos": [
+      {
+        "nombre": "Reactores Químicos II",
+        "codigo": "EIQ536",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ474"],
+        "abre": [],
+        "categoria": "Especialidad"
+      },
+      {
+        "nombre": "Diseño de Equipos",
+        "codigo": "EIQ518",
+        "creditos": 3,
+        "prerrequisitos": ["EIQ262"],
+        "abre": [],
+        "categoria": "Integradoras"
+      },
+      {
+        "nombre": "Procesos de Separación",
+        "codigo": "EIQ512",
+        "creditos": 5,
+        "prerrequisitos": ["EIQ451"],
+        "abre": ["EIQ582"],
+        "categoria": "Especialidad"
+      },
+      {
+        "nombre": "Simulación de Procesos Químicos",
+        "codigo": "EIQ500",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ366"],
+        "abre": ["EIQ553"],
+        "categoria": "Especialidad"
+      },
+      {
+        "nombre": "Ingeniería Ambiental",
+        "codigo": "EIQ522",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ414"],
+        "abre": [],
+        "categoria": "Especialidad"
+      }
+    ]
+  },
+  {
+    "semestre": 10,
+    "ramos": [
+      {
+        "nombre": "Proyecto de Título I",
+        "codigo": "EIQ582",
+        "creditos": 6,
+        "prerrequisitos": ["EIQ512"],
+        "abre": ["EIQ625"],
+        "categoria": "Integradoras"
+      },
+      {
+        "nombre": "Laboratorio de Operaciones Unitarias",
+        "codigo": "EIQ597",
+        "creditos": 4,
+        "prerrequisitos": ["EIQ451"],
+        "abre": [],
+        "categoria": "Integradoras"
+      },
+      {
+        "nombre": "Control de Procesos Químicos",
+        "codigo": "EIQ553",
+        "creditos": 5,
+        "prerrequisitos": ["EIQ500"],
+        "abre": [],
+        "categoria": "Integradoras"
+      },
+      {
+        "nombre": "Diseño de Plantas de Procesos",
+        "codigo": "EIQ577",
+        "creditos": 3,
+        "prerrequisitos": ["EIQ476"],
+        "abre": [],
+        "categoria": "Integradoras"
+      },
+      {
+        "nombre": "Optativo 3",
+        "codigo": "OPT3",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": [],
+        "categoria": "Optativas"
+      }
+    ]
+  },
+  {
+    "semestre": 11,
+    "ramos": [
+      {
+        "nombre": "Proyecto de Título II",
+        "codigo": "EIQ625",
+        "creditos": 16,
+        "prerrequisitos": ["EIQ582"],
+        "abre": [],
+        "categoria": "Integradoras"
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+:root {
+  --bg: #2d1a2d; /* Fondo oscuro con tono morado */
+  --text: #fff;
+  --gap: 10px;
+  --square-size: 120px; /* Tamaño más grande para mejor visibilidad */
+  --primary: #ff69b4; /* Rosa fuerte */
+  --secondary: #9370db; /* Morado medio */
+  --accent: #ffb6c1; /* Rosa claro */
+  --locked: #a9a9a9; /* Gris para cursos bloqueados */
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background: var(--secondary);
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+header p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: var(--text);
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(var(--square-size) + var(--gap));
+  gap: var(--gap);
+  padding: var(--gap);
+  overflow-x: auto;
+}
+
+.semestre {
+  display: grid;
+  grid-template-rows: auto repeat(auto-fill, var(--square-size));
+  gap: var(--gap);
+  background: var(--primary);
+  padding: var(--gap);
+  border-radius: 10px;
+}
+
+.semestre h2 {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.ramo {
+  width: var(--square-size);
+  height: var(--square-size);
+  background: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+}
+
+.ramo label {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  flex: 1;
+  overflow: hidden;
+  color: var(--accent);
+}
+
+.ramo input {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+}
+
+.ramo:hover:not(.locked) {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.ramo.locked {
+  background: var(--locked);
+  cursor: default;
+}
+
+.ramo.aprobado {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  text-decoration: line-through;
+  color: #fff;
+}
+
+.ramo.aprobado-anim {
+  animation: aprobadoAnim 0.5s;
+}
+
+@keyframes aprobadoAnim {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+  }
+  .semestre {
+    width: 100%;
+  }
+}
