@@ -131,6 +131,14 @@
         "prerrequisitos": [],
         "abre": ["ING9002"],
         "categoria": "Formación Fundamental"
+      },
+      {
+        "nombre": "Formacion Fundamental 2",
+        "codigo": "FOF2",
+        "creditos": 2,
+        "prerrequisitos": [],
+        "abre": [],
+        "categoria": "Formación Fundamental"
       }
     ]
   },
@@ -215,8 +223,8 @@
         "categoria": "Gestión"
       },
       {
-        "nombre": "Formación Fundamental 2",
-        "codigo": "FOF2",
+        "nombre": "Formación Fundamental 3",
+        "codigo": "FOF3",
         "creditos": 2,
         "prerrequisitos": [],
         "abre": [],
@@ -321,8 +329,8 @@
         "categoria": "Optativas"
       },
       {
-        "nombre": "Formación Fundamental 3",
-        "codigo": "FOF3",
+        "nombre": "Formación Fundamental 4",
+        "codigo": "FOF4",
         "creditos": 2,
         "prerrequisitos": [],
         "abre": [],
@@ -374,8 +382,8 @@
         "categoria": "Optativas"
       },
       {
-        "nombre": "Ética Cristiana",
-        "codigo": "ICR020",
+        "nombre": "Formación Fundamental 5",
+        "codigo": "FOF5",
         "creditos": 2,
         "prerrequisitos": [],
         "abre": [],
